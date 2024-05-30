@@ -1,0 +1,212 @@
+[
+ {
+  "trigger": "Calculator",
+  "command": "calc",
+  "ground": "foreground",
+  "voice": "calculator"
+ },
+ {
+  "trigger": "Notepad",
+  "command": "notepad",
+  "ground": "foreground",
+  "voice": "notepad"
+ },
+ {
+  "trigger": "Discord",
+  "command": "C:\\Users\\smare\\AppData\\Local\\Discord\\Update.exe --processStart Discord.exe",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "discord",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "OBS",
+  "command": "\"C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe\"",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "obs",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Utorrent",
+  "command": "C:\\Users\\smare\\AppData\\Roaming\\utorrent\\uTorrent.exe",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "utorrent",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Limpiar temporales 2",
+  "command": "start %temp%",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "temp2",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Reiniciar",
+  "command": "shutdown /r /t 1",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "reiniciar",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Limpiar temporales 1",
+  "command": "start temp",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "temp",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Word",
+  "command": "\"C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE\"",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "word",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Pantalla 2",
+  "command": "DisplaySwitch.exe /external",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "monitor",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Pantalla 1",
+  "command": "DisplaySwitch.exe /internal",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "pantalla",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Classroom",
+  "command": "start https://classroom.google.com/",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "classroom",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Cry",
+  "command": "start https://www.youtube.com/watch?v=JPiqaNLGkZc",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "cry",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Fher",
+  "command": "start https://www.youtube.com/watch?v=szrpkiDpSZQ",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "fher",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "SpeedTest",
+  "command": "start https://www.speedtest.net/es",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "speedtest",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Extender pantallas",
+  "command": "DisplaySwitch.exe /extend",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "extender",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "TeamViewer",
+  "command": "\"C:\\Program Files (x86)\\TeamViewer\\TeamViewer.exe\"",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "teamviewer",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "SIIAU",
+  "command": "start https://siiauescolar.siiau.udg.mx/wus/gupprincipal.inicio_f",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "siiau",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Opera GX",
+  "command": "\"C:\\Users\\smare\\AppData\\Local\\Programs\\Opera GX\\launcher.exe\"",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "opera",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Amazon",
+  "command": "start https://www.amazon.com.mx/?tag=hydramzkw0mx-20&ref=nav_ya_signin&adgrpid=150779884221&hvpone=&hvptwo=&hvadid=675207151838&hvpos=&hvnetw=g&hvrand=13524890700959035501&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9140033&hvtargid=kwd-360364908397&hydadcr=13959_13404201&gad_source=1",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "amazon",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Spotify",
+  "command": "start C:\\Users\\smare\\AppData\\Roaming\\Spotify\\Spotify.exe",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "spotify",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Driver Booster",
+  "command": "\"C:\\Program Files (x86)\\IObit\\Driver Booster\\11.2.0\\DriverBooster.exe\"",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "drivers",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Apagar",
+  "command": "shutdown /s /t 1",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "apagar",
+  "voiceReply": "",
+  "allowParams": "false"
+ },
+ {
+  "trigger": "Hibernar",
+  "command": "shutdown /h ",
+  "offCommand": "",
+  "ground": "foreground",
+  "voice": "hibernar",
+  "voiceReply": "",
+  "allowParams": "false"
+ }
+]
